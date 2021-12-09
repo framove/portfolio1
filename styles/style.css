@@ -1,0 +1,408 @@
+.header {
+  background-color: black;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 40px;
+  line-height: 80px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+
+.nav-menu-item {
+  font-size: 14px;
+  margin: 0 10px;
+  line-height: 80px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.nav-menu-link {
+  padding: 8px 12px;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link_active {
+  color: #feffae;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nav-toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 30px;
+  padding: 0 20px;
+  line-height: 60px;
+  cursor: pointer;
+  display: none;
+}
+
+.portada {
+  margin: 0;
+  width: 100%;
+  height: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.3))), url("../images/image_1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url("../images/image_1.jpg");
+  background-size: cover;
+}
+
+.titular {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grupo-logos {
+  margin-right: 5rem;
+}
+
+.logo-img {
+  width: 30px;
+}
+
+.rrss {
+  color: white;
+}
+
+.skill {
+  color: white;
+  list-style: none;
+}
+
+.aboutMe {
+  margin-top: 6rem;
+  max-width: 1920px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.aboutMe1 {
+  min-width: 500px;
+  padding: 5rem;
+  width: 50%;
+}
+
+.aboutMe2 {
+  min-width: 500px;
+  padding: 5rem;
+  width: 50%;
+  text-align: center;
+}
+
+#foto_1 {
+  width: 600px;
+  /*position: relative;
+    bottom: 20px;*/
+}
+
+.icon {
+  font-size: 2rem;
+  color: teal;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.point {
+  color: teal;
+}
+
+.subtitulo {
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  color: teal;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.titulo-2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4rem;
+}
+
+.item-1 {
+  background-image: url("../images/Impulsin.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 300px;
+  height: 300px;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0);
+}
+
+.item-1:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/Impulsin.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/Impulsin.jpg");
+  color: white;
+}
+
+.tema {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.item-2 {
+  background-image: url("../images/NL_Raymond-Weils.gif");
+  background-position: 50% 50%;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 300px;
+  height: 300px;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0);
+}
+
+.item-2:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/NL_Raymond-Weils.gif");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/NL_Raymond-Weils.gif");
+  color: white;
+}
+
+.item-3 {
+  background-image: url("../images/Pastalover_Mockup.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 300px;
+  height: 300px;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0);
+}
+
+.item-3:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/Pastalover_Mockup.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/Pastalover_Mockup.jpg");
+  color: white;
+}
+
+@media (max-width: 778px) {
+  .header {
+    height: 60px;
+  }
+  .logo {
+    font-size: 25px;
+    padding: 0 20px;
+    line-height: 60px;
+  }
+  .nav-menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 20px;
+    background-color: #272626;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    padding: 20px 0;
+    height: calc(30% - 60px);
+    overflow-y: auto;
+    left: 100%;
+    -webkit-transition: left 0.3s;
+    transition: left 0.3s;
+  }
+  .nav-menu-item {
+    line-height: 70px;
+  }
+  .nav-menu-link:hover,
+  .nav-menu-link_active {
+    background: none;
+    color: teal;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .nav-menu_visible {
+    left: 0;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .nav-menu_visible {
+    left: 0;
+  }
+  .aboutMe {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-top: 2rem;
+  }
+  .aboutMe1 {
+    padding: 2rem;
+    width: 80%;
+  }
+  #foto_1 {
+    width: 500px;
+    /*position: relative;
+        bottom: 20px;*/
+  }
+  #contenedor {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .item-1 {
+    margin-bottom: 2rem;
+  }
+  .item-2 {
+    margin-bottom: 2rem;
+  }
+  .item-3 {
+    margin-bottom: 2rem;
+  }
+}
+
+/*@font-face {
+    font-family: "Nombre de la fuente";
+    src: url("../fonts/tipografia.ttf") format("truetipe");
+    font-weight: normal;
+    font-style: normal;
+}*/
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

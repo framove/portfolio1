@@ -1,0 +1,51 @@
+.titulo-2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+
+.item-1 {
+    background-image: url("../images/Impulsin.jpg");
+    background-position: 50% 50%;
+    @include box(flex);
+}
+
+.item-1:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../images/Impulsin.jpg");
+    color: rgb(255, 255, 255);
+}
+
+.tema {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.item-2 {
+    background-image: url("../images/NL_Raymond-Weils.gif");
+    background-position: 50% 50%;
+    @include box(flex);
+}
+
+.item-2:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../images/NL_Raymond-Weils.gif");
+    color: rgb(255, 255, 255);
+}
+
+.item-3 {
+    background-image: url("../images/Pastalover_Mockup.jpg");
+    background-position: 50% 50%;
+    @include box(flex);
+}
+
+.item-3:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../images/Pastalover_Mockup.jpg");
+    color: rgb(255, 255, 255);
+}

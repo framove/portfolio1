@@ -1,0 +1,14 @@
+@mixin box($display) {
+    background-size: cover;
+    display: $display;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 300px;
+    height: 300px;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0);
+}

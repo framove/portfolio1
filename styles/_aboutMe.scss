@@ -1,0 +1,50 @@
+.aboutMe {
+    margin-top: 6rem;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutMe1 {
+    min-width: 500px;
+    padding: 5rem;
+    width: 50%;
+}
+
+.aboutMe2 {
+    min-width: 500px;
+    padding: 5rem;
+    width: 50%;
+    text-align: center;
+}
+
+#foto_1 {
+    width: 600px;
+    /*position: relative;
+    bottom: 20px;*/
+}
+
+.icon {
+    font-size: 2rem;
+    color: teal;
+    margin-bottom: 1rem;
+
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.point {
+    color: teal;
+}
+.subtitulo {
+    margin-top: 3rem;
+    font-size: 0.8rem;
+    color: teal;
+}
+
+p {
+    line-height: 2rem;
+}

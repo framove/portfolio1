@@ -1,0 +1,28 @@
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.grupo-logos {
+    margin-right: 5rem;
+}
+
+.logo-img {
+    width: 30px;
+}
+
+.rrss {
+    color: white;
+}
+
+.skill {
+    color: white;
+    list-style: none;
+}
